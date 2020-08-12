@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
     <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Resources/CSS/index.css"> 
+    <link rel="stylesheet" href="resources/CSS/index.css"> 
 </head>
 <body>
-    <main>
+    <main> 
         <div class="container">
             <h1>Counter</h1>
             <span id="value">0</span>
             <div class="button-container">
-                <button class="btn decrease">Decrease</button>
-                <button class="btn reset">Reset</button>
-                <button class="btn increase">Increase</button>
+                <button class="btn decrease" onclick="updateValue(-1);">Decrease</button>
+                <button class="btn reset" onclick="reset();">Reset</button>
+                <button class="btn increase" onclick="updateValue(1);">Increase</button>
             </div>
         </div>
     </main>
-    <script src="app.js"></script>
+    <script src="daniel.js"></script>
 </body>
 </html>
